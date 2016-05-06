@@ -1,0 +1,14 @@
+ruboty:
+  build: .
+  links:
+    - redis
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+  command: bundle exec ruboty --dotenv
+
+redis:
+  image: redis
+  volumes:
+    - /var/docker_volumes/hiyokochan/redis_data:/data
+  restart: always
+  command: redis-server --appendonly yes
