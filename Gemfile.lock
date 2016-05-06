@@ -18,16 +18,22 @@ GEM
       dotenv
       mem
       slop
+    ruboty-slack (0.1.12)
+      ruboty (>= 1.0.4)
+      xrc (>= 0.1.8)
     slop (3.6.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    xrc (0.1.8)
+      activesupport
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   ruboty
+  ruboty-slack
 
 RUBY VERSION
    ruby 2.3.1p112
