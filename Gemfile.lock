@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/5t111111/ruboty-rss.git
+  revision: 59f6a8bafb369b6a0f383549cf8c799c1c676e84
+  branch: update-ruboty-version-dependency
+  specs:
+    ruboty-rss (0.0.6)
+      activesupport
+      ruboty (>= 1.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,6 +53,7 @@ PLATFORMS
 DEPENDENCIES
   pry-byebug
   ruboty
+  ruboty-rss!
   ruboty-slack
 
 RUBY VERSION
