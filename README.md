@@ -3,8 +3,9 @@
 ## Features
 
 - [ruboty-slack](https://github.com/r7kamura/ruboty-slack)
+- [ruboty-cron](https://github.com/r7kamura/ruboty-cron)
+- [ruboty-feed](https://github.com/5t111111/ruboty-feed)
 - [ruboty-redis](https://github.com/r7kamura/ruboty-redis)
-- [ruboty-rss](https://github.com/5t111111/ruboty-rss)
 
 ## Development
 
