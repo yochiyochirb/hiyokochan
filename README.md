@@ -1,5 +1,7 @@
 # hiyokochan
 
+hiyokochan is a Ruboty bot lives in yochiyochirb Slack.
+
 ## Features
 
 - [ruboty-slack](https://github.com/r7kamura/ruboty-slack)
