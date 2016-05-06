@@ -31,12 +31,19 @@ GEM
     pry-byebug (3.3.0)
       byebug (~> 8.0)
       pry (~> 0.10)
+    redis (3.3.0)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
     ruboty (1.2.4)
       activesupport
       bundler
       dotenv
       mem
       slop
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
@@ -53,6 +60,7 @@ PLATFORMS
 DEPENDENCIES
   pry-byebug
   ruboty
+  ruboty-redis
   ruboty-rss!
   ruboty-slack
 
